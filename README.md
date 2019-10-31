@@ -1,5 +1,7 @@
 ﻿# TERA PLATFORM
 
+**wellbeing commit**
+
 * What is the project and what he does we recommend you to read this review article: [Decentralized applications on TERA platform](https://medium.com/@evkara777/decentralized-applications-on-tera-platform-2aa56b597ae9)
 * The following describes how to install it on your computer
 
@@ -67,14 +69,14 @@ netsh advfirewall firewall add rule name="Open 30000 port" protocol=TCP localpor
 
 ```
 cd wallet
-git reset --hard 
+git reset --hard
 git clean -f
-git pull 
+git pull
 ```
 
 
 
-## Installation on Linux 
+## Installation on Linux
 
 ### CentOS 7:
 
@@ -94,7 +96,7 @@ pm2 start run-node.js
 
 ### open ports (all):
 ```
-systemctl stop firewalld 
+systemctl stop firewalld
 systemctl disable firewalld
 ```
 
@@ -102,9 +104,9 @@ systemctl disable firewalld
 
 ```
 cd wallet
-sudo git reset --hard 
+sudo git reset --hard
 sudo git clean -f
-sudo git pull 
+sudo git pull
 ```
 
 
@@ -140,8 +142,8 @@ sudo ufw allow 80/tcp
 
 ```
 cd wallet
-git reset --hard 
-git pull 
+git reset --hard
+git pull
 ```
 
 ## MAIN NETWORK
@@ -159,7 +161,7 @@ Default values:
 port:40000
 httpport:8080
 ```
-Launch: 
+Launch:
 ```
 cp -a Source SourceTest
 cd SourceTest
@@ -187,7 +189,7 @@ pm2 start run-test.js
 * Block generation time: 1 second
 * Block confirmation time: 8 seconds
 * Speed: from 1000 transactions per second
-* Commission: free of charge 
+* Commission: free of charge
 * Cryptography: sha3, secp256k1
 * Protection against DDoS: PoW (hash calculation)
 * Platform: Node.JS
@@ -235,4 +237,3 @@ pm2 start run-test.js
 
 ## RUS
  [Эта же страница на русском](https://gitlab.com/terafoundation/tera/tree/master/Doc/Rus)
-
