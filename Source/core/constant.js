@@ -11,10 +11,10 @@
 global.UPDATE_CODE_VERSION_NUM = 1303;
 global.MIN_CODE_VERSION_NUM = 1114;
 global.MINING_VERSION_NUM = 0;
-global.FORK_MODE = 0;
-global.NETWORK = "TERA-MAIN";
-global.START_NETWORK_DATE = 1530446400000;
-global.CONSENSUS_PERIOD_TIME = 1000;
+global.FORK_MODE = 1;
+global.NETWORK = "WBN-MAIN";
+global.START_NETWORK_DATE = 1570903300000;
+global.CONSENSUS_PERIOD_TIME = 2000;
 try
 {
     require("../../fork-run.js");
@@ -65,7 +65,7 @@ global.USE_NET_FOR_SERVER_ADDRES = 1;
 global.NET_WORK_MODE = undefined;
 global.STAT_MODE = 0;
 global.MAX_STAT_PERIOD = 1 * 3600;
-global.WALLET_NAME = "TERA";
+global.WALLET_NAME = "WBN";
 global.WALLET_DESCRIPTION = "";
 global.USE_MINING = 0;
 global.POW_MAX_PERCENT = 50;
@@ -145,7 +145,7 @@ global.HISTORY_BLOCK_COUNT = 40;
 global.MAX_SIZE_LOG = 200 * 1024 * 1024;
 global.READ_ONLY_DB = 0;
 global.USE_CHECK_SAVE_DB = 1;
-global.DEF_MAJOR_VERSION = "0001";
+global.DEF_MAJOR_VERSION = "0002";
 global.SMART_BLOCKNUM_START = 10000000;
 global.PRICE_DAO = function (BlockNum)
 {
@@ -202,7 +202,7 @@ else
         var Num = Date.now() - 50 * 1000;
         console.log("CURRENT NUM: " + (Math.trunc(Num / 1000) * 1000));
         global.SMART_BLOCKNUM_START = 0;
-        global.START_NETWORK_DATE = 1563043550000 + 500 * 1000;
+        global.START_NETWORK_DATE = 1570903300000 + 500 * 1000;
         global.START_MINING = 100;
         global.REF_PERIOD_END = 0;
         global.REF_PERIOD_MINING = 200;
@@ -213,7 +213,7 @@ else
         global.START_BLOCK_ACCOUNT_HASH3 = 200;
         global.BLOCKNUM_TICKET_ALGO = 1;
         global.WALLET_NAME = "TEST";
-        NETWORK = "TERA-TEST3";
+        NETWORK = "WBN-TEST3";
         if(global.START_PORT_NUMBER === undefined)
             global.START_PORT_NUMBER = 40000;
         global.ALL_VIEW_ROWS = 1;
@@ -239,7 +239,7 @@ global.GetNetworkName = function ()
     return NETWORK + "-" + DEF_MAJOR_VERSION;
 }
 global.DEF_VERSION = DEF_MAJOR_VERSION + "." + UPDATE_CODE_VERSION_NUM;
-global.DEF_CLIENT = "TERA-CORE";
+global.DEF_CLIENT = "WBN-CORE";
 global.FIRST_TIME_BLOCK = START_NETWORK_DATE;
 global.START_BLOCK_RUN = 0;
 if(global.START_IP === undefined)
