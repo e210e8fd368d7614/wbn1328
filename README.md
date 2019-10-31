@@ -1,6 +1,6 @@
-﻿# TERA PLATFORM
+﻿# WBN FORK TERA PLATFORM
 
-**wellbeing commit**
+*wellbeing branch*
 
 * What is the project and what he does we recommend you to read this review article: [Decentralized applications on TERA platform](https://medium.com/@evkara777/decentralized-applications-on-tera-platform-2aa56b597ae9)
 * The following describes how to install it on your computer
