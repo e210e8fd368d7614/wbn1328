@@ -124,7 +124,7 @@ global.MIN_POWER_POW_TR = 10;
 if(global.MIN_POWER_POW_BL === undefined)
     global.MIN_POWER_POW_BL = 5;
 global.GENERATE_BLOCK_ACCOUNT = 0;
-global.TOTAL_SUPPLY_TERA = 1e9;
+global.TOTAL_SUPPLY_TERA = 6.3072e9;
 global.TRANSACTION_PROOF_COUNT = 1000 * 1000;
 global.MIN_POWER_POW_ACC_CREATE = 16;
 global.START_MINING = 2 * 1000 * 1000;
