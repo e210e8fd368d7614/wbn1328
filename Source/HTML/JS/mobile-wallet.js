@@ -487,7 +487,7 @@ function SetAccountsCard(Data,AccountsDataStr)
         }
         StrList += Str;
         Str = "";
-        if(Item.Value.SumCOIN >= 1e12)
+        if(Item.Value.SumCOIN >= 1e12) // ЧТО ЭТО
             continue;
         var Total = ListTotal[Item.Currency];
         if(!Total)
@@ -1224,7 +1224,7 @@ LangMap["ENG"] = {};
 LangMap["RUS"] = {"WBN WALLET":"WBN КОШЕЛЕК", "Generate key":"Сгенерировать ключ", "OK":"OK", "Cancel":"Отмена", "Edit":"Редактирование",
     "Save key":"Сохран.", "+ CREATE A NEW ACCOUNT":"+ СОЗДАТЬ НОВЫЙ СЧЕТ", "Create account":"Создать счет", "Send":"Отправить",
     "CONFIRM":"Подтвердить", "Accounts":"Счета", "Account(s)":"Счет(а,ов)", "Blocks and Tx":"Блоки и Транзакции", "Counters":"Показатели",
-    "Open DApp":"Открыть", "Back":"Назад", "Delete":"Удалить", "Save to book":"Сохранить в книгу", "Choose":"Выбрать", "RECONNECT":"КОННЕКТ",
+      "Open DApp":"Открыть", "Back":"Назад", "Delete":"Удалить", "Save to book":"Сохранить в книгу", "Choose":"Выбрать", "RECONNECT":"КОННЕКТ",
     "DApps":"DApps", "ID":"ИД", "Amount":"Величина", "Cur":"Вал", "Name":"Имя", "PubKey":"Пуб.ключ", "Operation":"Операция", "Smart":"Смарт",
     "Block Num":"Ном блока", "Num":"Ном", "Date":"Дата", "Data Hash":"Хеш данных", "PowHash":"Хеш сложности", "Block Hash":"Хеш блока",
     "Bytes":"Байт", "Pow":"Сложн", "Miner":"Майнер", "(secret)":"(секрет)", "Show":"Показать", "WBN":"WBN", "Blockchain height:":"Высота блокчейна:",
