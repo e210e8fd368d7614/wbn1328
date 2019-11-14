@@ -2,8 +2,6 @@
  * @project: WellBeing Network
  * @version: Development (beta)
  * @license: MIT (not for evil)
- * @copyright: Yuriy Ivanov (Vtools) 2017-2019 [progr76@gmail.com]
- * @copyright: Evgeny Pustolenko (pev5691) 2019 [pev5691@yandex.ru]
  * Web: http://www.wellbeing.su
  * Telegram:  https://t.me/wellbeingnetwork
 */
