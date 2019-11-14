@@ -1,11 +1,11 @@
 /*
- * @project: TERA
+ * @project: WellBeing Network
  * @version: Development (beta)
  * @license: MIT (not for evil)
  * @copyright: Yuriy Ivanov (Vtools) 2017-2019 [progr76@gmail.com]
- * Web: https://terafoundation.org
- * Twitter: https://twitter.com/terafoundation
- * Telegram:  https://t.me/terafoundation
+ * @copyright: Evgeny Pustolenko (pev5691) 2019 [pev5691@yandex.ru]
+ * Web: http://www.wellbeing.su
+ * Telegram:  https://t.me/wellbeingnetwork
 */
 
 global.UPDATE_CODE_VERSION_NUM = 1306;
@@ -274,7 +274,7 @@ if(typeof window === 'object')
 }
 global.RUN_CLIENT = 0;
 global.RUN_SERVER = 1;
-function InitParamsArg()
+function InitParamsArg() //ЧТО ЭТО? Это то, что пишется в конфиг?
 {
     for(var i = 1; i < process.argv.length; i++)
     {
@@ -316,7 +316,7 @@ function InitParamsArg()
                                     }
                                     else
                                     {
-                                        switch(str)
+                                        switch(str) // ЭТО ЧТО? Ключи запуска ноды?
                                         {
                                             case "CHILDPOW":
                                                 global.CHILD_POW = true;
