@@ -8,6 +8,11 @@
  * Переменная стартового номера блока
  * Переменная текущего номера блока
  * Переменная триггерного номера блока
- * 
+ *
  *
 */
+
+RequiredVariableRangeCoefficient
+VariableStartNumberTheBlock
+VariableCurrentRoomBlock
+BlockTriggerNumberVariable

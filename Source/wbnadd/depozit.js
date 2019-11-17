@@ -10,3 +10,12 @@
  * Номер блока момента выплаты
  *
 */
+
+CurrentBlockNumber
+ChoiceDepositCurrency
+AmountFundsDeposited
+ChoiceConditionsPurchasedDeposit
+BlockNumberPublicationContract
+BlockExpirationContract
+AmountFundsPayableWBN
+BlockNumberMomentPayment
