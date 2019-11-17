@@ -6,7 +6,7 @@
  * Telegram:  https://t.me/wellbeingnetwork
 */
 
-global.UPDATE_CODE_VERSION_NUM = 1306;
+global.UPDATE_CODE_VERSION_NUM = 1328;
 global.MIN_CODE_VERSION_NUM = 1114;
 global.MINING_VERSION_NUM = 0;
 global.FORK_MODE = 1;
