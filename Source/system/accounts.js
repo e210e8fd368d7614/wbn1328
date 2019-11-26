@@ -12,8 +12,8 @@
 const fs = require('fs');
 const DBRow = require("../core/db/db-row");
 require('../core/rest_tables.js');
-const MAX_SUM_TER = 6.3072e9;
-const MAX_SUM_CENT = 6.3072e9;
+const MAX_SUM_TER = 5e8;
+const MAX_SUM_CENT = 5e8;
 const DBLib = require("../core/db/db");
 global.HistoryDB = new DBLib();
 const FILE_NAME_HISTORY = "history-body";
@@ -1407,9 +1407,9 @@ class AccountApp extends require("./dapp")
     {
         FromID = ParseNum(FromID)
         ToID = ParseNum(ToID)
-        if(CoinSum.SumCENT >= 6.3072e9)
+        if(CoinSum.SumCENT >= 5e8)
         {
-            throw "ERROR SumCENT>=6.3072e9";
+            throw "ERROR SumCENT>=5e8";
         }
         var FromData = this.ReadStateTR(FromID);
         if(!FromData)

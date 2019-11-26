@@ -494,9 +494,9 @@ function $SetValue(ID,CoinSum)
         CoinSum = COIN_FROM_FLOAT(CoinSum);
     }
     CHECKSUM(CoinSum);
-    if(CoinSum.SumCENT >= 6.3072e9)
+    if(CoinSum.SumCENT >= 5e8)
     {
-        throw "ERROR SumCENT>=6.3072e9";
+        throw "ERROR SumCENT>=5e8";
     }
     if(CoinSum.SumCOIN < 0 || CoinSum.SumCENT < 0)
     {
@@ -514,9 +514,9 @@ function $Send(ToID,CoinSum,Description)
     if(typeof CoinSum === "number")
         CoinSum = COIN_FROM_FLOAT(CoinSum);
     CHECKSUM(CoinSum);
-    if(CoinSum.SumCENT >= 6.3072e9)
+    if(CoinSum.SumCENT >= 5e8)
     {
-        throw "ERROR SumCENT>=6.3072e9";
+        throw "ERROR SumCENT>=5e8";
     }
     if(CoinSum.SumCOIN < 0 || CoinSum.SumCENT < 0)
     {
@@ -562,9 +562,9 @@ function $Move(FromID,ToID,CoinSum,Description)
         CoinSum = COIN_FROM_FLOAT(CoinSum);
     }
     CHECKSUM(CoinSum);
-    if(CoinSum.SumCENT >= 6.3072e9)
+    if(CoinSum.SumCENT >= 5e8)
     {
-        throw "ERROR SumCENT>=6.3072e9";
+        throw "ERROR SumCENT>=5e8";
     }
     if(CoinSum.SumCOIN < 0 || CoinSum.SumCENT < 0)
     {
