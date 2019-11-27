@@ -11,7 +11,7 @@ global.MIN_CODE_VERSION_NUM = 1114;
 global.MINING_VERSION_NUM = 0;
 global.FORK_MODE = 1;
 global.NETWORK = "WBN-second";
-global.START_NETWORK_DATE = 1570903300000;
+global.START_NETWORK_DATE = 1574871500000;
 global.CONSENSUS_PERIOD_TIME = 2000;
 try
 {
@@ -200,7 +200,7 @@ else
         var Num = Date.now() - 50 * 1000;
         console.log("CURRENT NUM: " + (Math.trunc(Num / 1000) * 1000));
         global.SMART_BLOCKNUM_START = 0;
-        global.START_NETWORK_DATE = 1570903300000 + 500 * 1000;
+        global.START_NETWORK_DATE = 1574871500000 + 500 * 1000;
         global.START_MINING = 100;
         global.REF_PERIOD_END = 0;
         global.REF_PERIOD_MINING = 200;
